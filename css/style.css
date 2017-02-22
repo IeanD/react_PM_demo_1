@@ -1,0 +1,293 @@
+body {
+    cursor:default;
+    background-color: #EDE9E6;
+}
+
+h1 {    
+    margin-bottom: 0px;
+    color: white;    
+    text-shadow: -1px 0 black, 0 5px black, 5px 0 black, 0 -1px black;
+    font-family: "Oleo Script", Gadget, sans-serif;
+    font-size: 80px;
+}
+
+h2 {
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: Cantarell, Gadget, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    font-family: Nobile, Gadget, sans-serif;
+}
+
+.checkout-link {
+    float: right;
+}
+
+.checkout-btn {
+    margin-right: 30px;
+    margin-top: -40px;
+    background: none;
+    background-color: #A00606;
+}
+
+.soup-header {
+    background-color: #A00606;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    width: 100%;
+    height: 310px;
+}
+
+.pageTitle, .pageTitle:hover {
+    color: white;
+    font-weight: normal;
+}
+
+.input-group {
+    margin: 0 auto;
+}
+
+.search-bar {
+    width: 80%;
+}
+
+.form-control {
+    height: 32px;
+}
+
+.btn-primary, .btn-primary:focus {       
+    background: -webkit-linear-gradient(#806F3A, #B4A57C, #806F3A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#806F3A, #B4A57C, #806F3A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#806F3A, #B4A57C, #806F3A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#806F3A, #B4A57C, #806F3A); /* Standard syntax (must be last) */
+    border: 1px solid #806F3A;
+    height: 32px;
+    font-family: Cantarell, Gadget, sans-serif;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.btn-primary:hover, .btn-primary:active:focus {   
+    background: -webkit-linear-gradient( #B4A57C, #806F3A, #B4A57C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #B4A57C, #806F3A, #B4A57C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #B4A57C, #806F3A, #B4A57C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B4A57C, #806F3A, #B4A57C); /* Standard syntax (must be last) */ 
+}
+
+.cartCounterDiv {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.soup-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.cart-counter {
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+}
+
+.cart-counter:hover {
+    color: white;
+}
+
+.change-quantity-button {
+    padding: 10px;
+}
+
+.display-container {
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    background-color: white;
+    box-shadow:  -1px 0 lightgray, 0 2px lightgray, 2px 0 lightgray, 0 -1px lightgray;
+    margin-bottom: 10px;
+    min-height: 180px;
+}
+
+.nutrition-genres {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+#genreList {
+    width: 100%;
+}
+
+#genre-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#topGenreRow {
+    border-top: 20px solid black;
+}
+
+.genreRow {
+    border-top: 2px solid black;
+}
+
+.genreItem {
+    color: black;
+    font-size: 15px;
+}
+
+.genreItem:hover {
+    color: black;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.movie-poster {
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.movie-title {
+    margin-top: 10px;
+}
+
+.movie-descriptions {
+    padding-left: 125px;
+}
+
+.movies-appear {
+  opacity: 0.01;
+}
+
+.movies-appear.movies-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.pagination li {
+    float: left;
+}
+
+.pagination p {
+    padding: 7px 15px;
+}
+
+.pagination>li>a:hover {
+    color: #806F3A;
+}
+
+.pagination>li>a, .pagination>li>a:focus {
+    color: #B4A57C;
+    background-color: white;
+}
+
+.payment-info {
+    margin-left: 60px;
+    padding-top: 40px;
+    font-size: 200%;
+    margin-bottom: -40px;
+}
+
+.payment-amount {
+    padding-left: 70px;
+    color: darkgray;
+}
+
+.form-control-cart {
+    width: 50px;
+    float: right;
+    height: 32px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer-text {
+    color: lightgrey;    
+    font-size: 15px;
+    font-family: Cantarell, Gadget, sans-serif;
+}
+
+.soup-footer {
+    background-color: #A00606;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.center-row {
+    text-align:center;
+}
+.center-column {
+    display:inline-block;
+    text-align:left;
+    float: none;
+}
+
+@media (max-width: 370px) {
+
+    .pageTitle, .pageTitle:hover {
+        font-size: 80%;
+    }
+
+    .movie-title {
+        font-size: 2.0rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .movie-descriptions {
+        padding-left: 5px;
+    }
+
+    .movie-poster {
+        float: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .list-of-movies {
+        margin-top: 20px;
+    }
+
+    .movie-descriptions {
+        padding-left: 5px;
+    }
+
+    .change-quantity-button {
+        width: 0px;
+        padding-left: 0px;
+    }
+
+    @media (min-width: 992) {
+        .change-quantity-button {
+            float: right;
+        }
+    }
+}
